@@ -1,4 +1,4 @@
-module github.com/fullstorydev/grpcurl
+module github.com/korzhenevski/grpcurl
 
 go 1.15
 
