@@ -53,7 +53,7 @@ var (
 		Print usage instructions and exit.`))
 	printVersion = flags.Bool("version", false, prettify(`
 		Print version.`))
-	plaintext = flags.Bool("plaintext", false, prettify(`
+	plaintext = flags.Bool("plaintext", true, prettify(`
 		Use plain-text HTTP/2 when connecting to server (no TLS).`))
 	insecure = flags.Bool("insecure", false, prettify(`
 		Skip server certificate and domain verification. (NOT SECURE!) Not
